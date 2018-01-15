@@ -154,10 +154,10 @@ class Robot extends Api
                 'btnOrientation' => $btnOrientation,
             ]
         ];
-        foreach ($buttons as $btnTitle => $btnUrl) {
+        foreach ($buttons as $button) {
             $btn = [
-                'title' => $btnTitle,
-                'actionURL' => $btnUrl,
+                'title' => $button['title'],
+                'actionURL' => $button['url'],
             ];
             $data['actionCard']['btns'][] = $btn;
         }
