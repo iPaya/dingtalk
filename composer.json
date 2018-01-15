@@ -1,0 +1,26 @@
+{
+    "name": "ipaya/dingtalk",
+    "description": "钉钉非官方 SDK",
+    "keywords": [
+    ],
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.0",
+        "guzzlehttp/guzzle": "*"
+    },
+    "require-dev": {
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "iPaya\\DingTalk\\": ""
+        }
+    }
+}
